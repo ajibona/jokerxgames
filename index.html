@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+  <title>Dice games</title>
+</head>
+<body>
+  <header>
+    <div class="cash">
+      <p class="cashout__price">$0.00</p>
+      <button class="cashout__btn">
+      <img src="dice games/images/money.png" alt="" width="30px">  
+      Cashout</button>
+    </div>
+
+    <div class="message__board">
+      Dey calm you cant withdraw now keep playing
+    </div>
+  </header>
+
+  <div class="container">
+    <img src="dice games/images/dice.png" alt="" class="dice__images">
+    <p class="notes__css">Note: <br>
+      These is a rolling dices games just clicks the numeber you wanted and its going to be compared to computer. Please dont loose to my Ai weerey if you like make computer beat you im watching you lol!
+    </p>
+    <p class="compsDisplay js__comp--scores">0</p>
+    <div class="scores__display">
+      <p class="js__wins">Wins: 0</p>
+      <p class="Js__losses">Losses: 0</p>
+      <p class="js__ties">Ties: 0</p>
+    </div>
+
+    <div class="input__box">
+      <input type="text" name="playerInput" id="playerInput" placeholder="Enter your value players" minlength="1" maxlength="1">
+      <p class="error-info js__error">See just choose a random numeber 1 - 6</p>
+    </div>
+
+    <button class="js__btn">Enter Your Destiny</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+these games is really simple we are to create a games and picks a numbers each numbers we picked decide our chances against the computer
+
+1. Html codes hass been written out and we gonna apply that
+2. css stylings
